@@ -1,5 +1,23 @@
 # Build Golang RESTful API with Gorm, Gin and Postgres
 
+## Init Postgres in docker
+
+`$ docker-compose up -d`
+
+## Install libraries
+
+`$ go get .`
+
+## Run migration
+
+`$ go run migrate/migrate.go`
+
+## Run server
+
+`$ go install github.com/cosmtrek/air@latest`
+
+`$ air`
+
 ## 1. How to Setup Golang GORM RESTful API Project with Postgres
 
 ![How to Setup Golang GORM RESTful API Project with Postgres](https://codevoweb.com/wp-content/uploads/2022/08/How-to-Setup-Golang-GORM-RESTful-API-Project-with-Postgres.webp)
